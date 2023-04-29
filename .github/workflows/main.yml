@@ -6,9 +6,6 @@ jobs:
     name: SOOS SCA Scan
     runs-on: ubuntu-latest
     steps:
-
-    - uses: actions/checkout@master
-
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@<latest_version>
       with:
